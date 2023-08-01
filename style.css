@@ -1,0 +1,347 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');/* Basic Reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+:root{
+    --FONTCOLOR :#656969;
+    --DARKGREEN : #037362;
+}
+.greenText:hover{
+    cursor: pointer;
+    color: #37D893;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flexColumn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Header Section */
+header{
+    min-height: 70px;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-size: .9rem;
+    border: 1px solid rgb(231, 207, 207);
+}
+.headerA , .headerC{
+    gap: 10px;
+}
+
+.kickstarterLogo{
+    width: 150px;
+    margin: 0px 150px;
+    fill: red !important ;
+}
+
+/* header second */
+
+.headerSecond{
+    height: 60px;
+    color: var(--FONTCOLOR);
+    gap: 20px;
+    justify-content:center;
+    border: 1px solid rgb(231, 207, 207);
+    border-width: 0px 1px 1px 1px;
+}
+
+/* main section */
+main{
+    margin: 0px 60px;
+}
+.HeadingTop{
+    padding: 40px 0px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.headerTagLine{
+    text-align: center;
+    color: var(--FONTCOLOR);
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+/* stats section  */
+
+.statBoxContainer{
+    margin-top: 25px;
+    height: 90px;
+    justify-content: center;
+    box-shadow: 2px 1px 10px 1px rgb(216, 204, 204) ;
+}
+.statBoxChild{
+    width: 33.333%;
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid  rgb(231, 207, 207);
+    border-width: 0px .5px;
+    justify-content: center;
+    color: var(--FONTCOLOR);
+}
+.statBoxChild h6{
+    font-size: 1.5rem;
+    color: #037362;
+    font-weight: 400;
+}
+
+
+/* block a  */
+
+
+.blockA{
+    display: flex;
+    margin: 60px 0;
+    /* border: 1px solid var(--FONTCOLOR); */
+    border: .5px solid rgb(221, 219, 219);
+    border-width: 0px 0px .5px 0px;
+    padding-bottom: 80px;
+    /* border: 1px solid  rgb(231, 207, 207); */
+}
+
+/* featured section here  */
+
+.featuredProject{
+    width: 55%;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+    padding-right: 30px;
+    border: .5px solid rgb(221, 219, 219);
+    border-width: 0px 1px 0px 0px;
+}
+.featuredProject h6{
+    color:  var(--FONTCOLOR);
+}
+.featuredProject big{
+    font-weight: 500;
+    /* color:  var(--DARKGREEN); */
+}
+.bigBadsImg{
+    height: 250px;
+}
+.featuredProjectBtns{
+    /* width: 40%; */
+    gap: 270px;
+}
+.featuredProjectBtns .a{
+    /* width: 20%; */
+}
+.featuredProjectBtns .b{
+    
+    width: 80%;
+    gap: 40px;
+    /* padding-left: 100px; */
+}
+.remindMeBtn{
+    width: 130px;
+    font-size: .8rem;
+    height: 40px;
+    background-color: white;
+    border: 1px solid rgb(231, 207, 207);
+}
+
+.featuredBtn{
+    width: 100%;
+    /* border: 2px solid yellow; */
+    justify-content: start;
+}
+
+.circleImg{
+    flex-direction: row;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(172, 164, 164);
+}
+.circleImgb{
+    margin-left: 50%;
+    margin-right: 15px;
+
+}
+.like{
+    width: 15px;
+}
+
+
+
+
+/* recommeded section  */
+
+.recForYou{
+    padding: 0px 0px;
+    border: 2px solid red;
+    flex-direction: column;
+    background-color: lightcoral;
+    margin: 0px 0px 0px 30px;
+    gap: 30px;
+    align-items: start;
+    /* height: 100%; */
+}
+.recForYou h6{
+    margin-top: 0px;
+    color:  var(--FONTCOLOR);
+}
+.recYou1{
+    gap: 20px;
+}
+.recYouImgA{
+    width: 200px;
+}
+.recYouTextBoxA{
+    gap: 5px;
+    flex-direction: column;
+    justify-content: start;
+}
+
+/* <!-- featured ends here  --> */
+    
+/* <!-- recommended starts here  --> */
+
+.recSection{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    gap: 20px;
+    height: 400px;
+    padding-left: 20px;
+    margin-top: 35px;
+    /* border: 5px solid red; */
+    /* align-items: flex-end; */
+}
+.recSection h6{
+    color:  var(--FONTCOLOR);
+
+
+}
+.recSectionabc{
+    /* border: 3px solid ; */
+    gap: 15px;
+    align-items: start;
+}
+.recSectiona1{
+    /* padding: 3.5px 0px 0px 0px; */
+    display: flex;
+    align-items: center;
+}
+.recSectiona2{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 20px 0px;
+    /* justify-content: ; */
+    gap: 5px;
+}
+.recSectiona2 p{
+    font-size: .7rem;
+    font
+}
+.recSectiona2 h6{
+    font-size: .9rem;
+    color: var(--DARKGREEN);
+    font-weight: 500;
+
+}
+.recSectiona2 small{
+    font-size: .8rem;
+    color: var(--FONTCOLOR);
+}
+
+
+
+
+
+
+/* block b  */
+.blockB{
+    margin: 100px 0px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+
+}
+.blockBimg{
+    width: 100%;
+}
+.blockBtextBox{
+    flex-direction: column;
+    border: 4px solid green;
+    border-width: 0px 0px 0px 3px ;
+    padding-left: 15px;
+    gap: 25px;
+    align-items: start;
+}
+/* block c  */
+.blockCColumn{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: start;
+}
+.hotp{
+    font-size: .8rem;
+    font-weight: 800;
+    color: var(--FONTCOLOR);
+}
+.blockC{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    min-height: 600px;
+    gap: 80px;
+    /* width: 100%; */
+    /* background-color: red; */
+    /* border:; */
+}
+.blockCImg{
+    width: 100%;
+    height: 300px;
+    margin: 20px 0px;
+}
+.blockCLeft{
+    width: 100%;
+    height: 100%;
+    
+    /* border: 2px solid black; */
+    /* background-color: red; */
+
+}
+.blockCRight{
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    /* border: 2px solid yellow; */
+    /* background-color: yellow ; */
+}
+.blockCLa h6, p{
+    margin: 15px 0px;
+}
+.blockCLa h6{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1rem;
+    
+}
+.blockCLa p{
+    margin-top: 0px;
+    font-family: 'Roboto Slab', serif;
+    font-size: .7rem;
+}
+.blockCLa small:nth-child(even){
+    font-size: .8rem;
+    color: rgb(176, 164, 164);
+}
+.blockCLa small:nth-child(odd){
+    font-size: .7rem;
+    color: rgb(125, 114, 114);
+}
